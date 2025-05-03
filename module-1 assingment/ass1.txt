@@ -148,5 +148,65 @@ cons::loss of personal data,fake information,distraction and time wastage,health
 pros::low power,flexible,less long term expenses,carry lots of data...
 cons::high cost at first,difficult to splice,can't carry power to operate other devices..
 
----> How does broadband differ from fiber-optic internet?  
+---> How does broadband differ from fiber-optic internet? 
+...Broadband is a general term for high-speed internet access using various technologies like DSL, cable, and satellite. Fiber-optic internet, on the other hand, is a specific type of broadband that utilizes light transmitted through thin glass or plastic fibers, offering faster and more reliable speeds compared to traditional broadband. 
+Here's a more detailed breakdown:
+
+1. Technology:
+Broadband:
+      Refers to any high-speed internet connection, including technologies like:
+     ..DSL (Digital Subscriber Line): Uses existing phone lines for internet access. 
+     ..Cable: Uses existing TV cable infrastructure for internet access. 
+     ..Satellite: Uses satellite technology to provide internet access in remote areas. 
+     ..Fiber-optic:
+    Specifically uses light pulses transmitted through fiber optic cables to carry data. 
+2. Speed and Reliability:
+Broadband:
+     ..Speeds can vary depending on the technology used. For example, DSL may be slower than cable, and both may be slower and less reliable than fiber optic. 
+    ..Fiber-optic:
+    ..Generally offers faster and more reliable speeds, with less latency and interference compared to traditional broadband methods. 
+3. Infrastructure:
+Broadband:
+     ..Can utilize existing infrastructure like phone lines, TV cables, or satellite technology. 
+    ..Fiber-optic:
+    ..Requires a dedicated fiber optic cable network to be installed, which can be more expensive and time-consuming to implement. 
+4. Advantages:
+     ..Fiber-optic:
+     ..Offers superior speed, reliability, and lower latency, making it ideal for demanding applications like streaming, gaming, and online video conferencing.
+Broadband:
+     ..Can be more affordable and readily available in some areas, making it a viable option for users with lower speed requirements. 
+   ..In essence: Broadband is a broader term for high-speed internet, while fiber-optic is a specific technology within that category that offers superior performance. 
+========================================================================================================
+8..Protocols Simulate HTTP and FTP requests using command line tools (e.g., curl). 
+
+--->
+
+
+
+
+What are the differences between HTTP and HTTPS protocols? 
+---> http                                                                                         https
+1. function at the appliction layer                                        1.this is runs at the transport layer.
+                       
+2.  lacks security.                                                                      2.to protect the communication between server and client.        
+
+3.operates by default on port 80.                                        3.operates by default on port 443.
+
+4.data exchanged in the plain text,                                     4. data exchanged in the chiper,                                      
+and it's not encrypted brfore ending.                                     or encrypted text.
+
+========================================================================================================
+9.Application Security :
+-->Identify and explain three common application security vulnerabilities. Suggest possible solutions. 
+
+..>Three common application security vulnerabilities are Broken Authentication, Cross-Site Scripting (XSS), and SQL Injection.
+    Broken Authentication allows attackers to bypass login mechanisms, XSS enables them to inject malicious scripts into web pages, and SQL Injection allows manipulation of database queries. 
+    Solutions include implementing multi-factor authentication,using output encoding and input validation to prevent XSS, and using parameterized queries to protect against SQL Injection. 
+
+
+ 
+                                                                
+
+
+ 
 
