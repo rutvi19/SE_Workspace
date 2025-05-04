@@ -28,7 +28,7 @@ int main()
   	cout<<"hello world";
 	return 0;
  }
-========================================================================================================
+=================================================================
 
 2.....what is programming?..
 -->Programming is the process of creating a set of instructions, or code, 
@@ -59,18 +59,18 @@ Ex: Python
 
 high-level languages                                                   low-level languages
 
-1.human-readable and easier                              1.easy to understand for manchine but 
-to understand and use 		            less-readable for human
+human-readable and easier         1.easy to understand for                       to understand also use for human.   manchince but less  readable.
 
-2.portable 			         2.non-portable
+2.portable 	             2.non-portable
 
-3.lower execution speed                                        3.higer execution speed 
+3.lower execution speed       3.higer execution speed                                       
 
-4.use syntax and semantics                                   4.binary code and mnemonics
+4.use syntax and semantics    4.binary code and mnemonics                                
 
-5.ex..java ,python,c++                                             5.assembly languages,manchine languages...
+ex..java ,python,c++.      assembly languages,manchine               					languages...
+                                     
 
-========================================================================================================
+=================================================================
 4.....World Wide Web & How Internet Works 
 
 ...world wide web stands for www...that's collections of sites...
@@ -95,7 +95,7 @@ lab .... Research and create a diagram of how data is transmitted from a client 
  >Ensures reliable data exchange and handles multiple client requests simultaneously. 
  >Responds to client requests by sending back the requested information or acknowledgment. 
  >Examples of servers include web servers, application servers, and database servers.  
-========================================================================================================
+=================================================================
 
 5.....Network Layers on Client and Server ?..
 ..>>there are 3 types of networks...
@@ -103,7 +103,9 @@ lab .... Research and create a diagram of how data is transmitted from a client 
 2.application layer..     it is a logical layer and its manages the interations between presentation and data layer...
 3.data layer...      this layer is responsible for data storage and its manage by server..
 
->>>lab....???????????????????????????? Design a simple HTTP client-server communication in any language. 
+.Design a simple HTTP client-server communication in any language. 
+-->clients-->internet-->server..
+
 
 >>>Explain the function of the TCP/IP model and its layers?..
 --->The TCP/IP model is a framework that defines how data is transmitted across computer networks, including the Internet. 
@@ -128,14 +130,14 @@ The internet layer, also known as the network layer, controls the flow and routi
 is sent speedily and accurately. 
 This layer is also responsible for reassembling the data packet at its destination.
 
-=========================================================================================================
+=================================================================
 6...Client and Servers :
 --->Explain Client Server Communication?
 ..>>Client-server communication is a model where a client 
     ->like a web browser or mobile app, requests services or data from a server ->like a web server or database, 
       and the server processes the request and responds back to the client. 
 
-========================================================================================================
+=================================================================
 7..Types of Internet Connections 
  --->Research different types of internet connections (e.g., broadband, fiber, satellite) and list their pros and cons. 
 ...>>There are several types of internet connections, including:
@@ -159,24 +161,27 @@ Broadband:
      ..Cable: Uses existing TV cable infrastructure for internet access. 
      ..Satellite: Uses satellite technology to provide internet access in remote areas. 
      ..Fiber-optic:
-    Specifically uses light pulses transmitted through fiber optic cables to carry data. 
+    Specifically uses light pulses transmitted through fiber optic cables to carry data.
+ 
 2. Speed and Reliability:
 Broadband:
      ..Speeds can vary depending on the technology used. For example, DSL may be slower than cable, and both may be slower and less reliable than fiber optic. 
-    ..Fiber-optic:
+Fiber-optic:
     ..Generally offers faster and more reliable speeds, with less latency and interference compared to traditional broadband methods. 
+
 3. Infrastructure:
 Broadband:
      ..Can utilize existing infrastructure like phone lines, TV cables, or satellite technology. 
-    ..Fiber-optic:
+ Fiber-optic:
     ..Requires a dedicated fiber optic cable network to be installed, which can be more expensive and time-consuming to implement. 
+
 4. Advantages:
      ..Fiber-optic:
      ..Offers superior speed, reliability, and lower latency, making it ideal for demanding applications like streaming, gaming, and online video conferencing.
 Broadband:
      ..Can be more affordable and readily available in some areas, making it a viable option for users with lower speed requirements. 
    ..In essence: Broadband is a broader term for high-speed internet, while fiber-optic is a specific technology within that category that offers superior performance. 
-========================================================================================================
+=================================================================
 8..Protocols Simulate HTTP and FTP requests using command line tools (e.g., curl). 
 
 --->
@@ -185,8 +190,7 @@ Broadband:
 
 
 What are the differences between HTTP and HTTPS protocols? 
----> http                                                                                         https
-1. function at the appliction layer                                        1.this is runs at the transport layer.
+---> 1.http   2.https...                                                                                       1.function at the appliction layer                                        1.this is runs at the transport layer.
                        
 2.  lacks security.                                                                      2.to protect the communication between server and client.        
 
@@ -200,8 +204,61 @@ and it's not encrypted brfore ending.                                     or enc
 -->Identify and explain three common application security vulnerabilities. Suggest possible solutions. 
 
 ..>Three common application security vulnerabilities are Broken Authentication, Cross-Site Scripting (XSS), and SQL Injection.
-    Broken Authentication allows attackers to bypass login mechanisms, XSS enables them to inject malicious scripts into web pages, and SQL Injection allows manipulation of database queries. 
-    Solutions include implementing multi-factor authentication,using output encoding and input validation to prevent XSS, and using parameterized queries to protect against SQL Injection. 
+
+    Broken Authentication allows attackers to bypass login mechanisms, XSS enables them to inject malicious scripts into web pages, and SQL Injection allows manipulation of database queries.
+ 
+    Solutions include implementing multi-factor         authentication,using output encoding and input validation to prevent XSS, and using parameterized queries to protect against SQL Injection. 
+
+-->What is the role of encryption in securing applications? 
+
+  Encryption plays a crucial role in securing applications by transforming sensitive data into an unreadable format, preventing unauthorized access, and ensuring data confidentiality, integrity, and authentication.
+Data Protection:
+Encryption ensures that even if data is intercepted or stolen, it remains unreadable without the decryption key. This protection extends to data stored on devices, within databases, and during transmission over networks. 
+Confidentiality, Integrity, and Authentication:
+Encryption helps maintain the confidentiality of data by making it inaccessible to unauthorized parties. It also ensures data integrity by verifying that the data has not been tampered with during transmission or storage. Furthermore, it can be used for authentication, confirming the identity of the sender or receiver. 
+Application Security:
+Encryption is a key component of application security, protecting data handled by applications from various threats. It can be implemented at different layers of an application, including the application layer, disk layer, and database layer. 
+Regulatory Compliance:
+Encryption is often required by regulatory frameworks like PCI DSS and GDPR to protect sensitive data.
+=================================================================
+
+
+ 10.Software Applications and Its Types:
+
+--> Identify and classify 5 applications you use daily as either system software or application software.
+
+Here are 5 commonly used daily applications, classified as either system or application software:
+
+1. Operating System (e.g., Windows, macOS):
+    This is system software, as it manages the computer's   	hardware and provides a platform for other software to run. 
+
+2. Web Browser (e.g., Chrome, Firefox):
+     This is application software, as it allows users to access 	and interact with the internet and websites. 
+
+3. Word Processor (e.g., Microsoft Word, Google Docs):
+    This is application software, used for creating and editing 	text-based documents. 
+
+4. Email Client (e.g., Outlook, Gmail):
+     This is application software, designed for managing and  	sending emails.
+ 
+5. Antivirus Software (e.g., Norton, McAfee):
+   	This is application software, designed to protect a computer 	from malware and viruses. 
+
+
+-->what is the difference between system software and application software? 
+
+system software::direct control and access to computer harsdware.
+application software::runs under system software.
+ 
+system software::helps tom perform overall operations.
+application software::make to do specific task.
+
+system software::it is software design to provide a platform for other software.
+application software::it is program or group of program designed for end users.
+
+system software::ex:linux
+application software::facebook,google..etc.
+
 
 
  
