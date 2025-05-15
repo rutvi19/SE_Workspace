@@ -9,7 +9,7 @@ int main()
     
      cube=num*num*num;
     
-    printf("the square number is :%d",cube);
+    printf("the cube number is :%d",cube);
 
     return 0;
 }
