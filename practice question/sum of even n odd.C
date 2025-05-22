@@ -13,9 +13,9 @@ int main()
     for (I = start; I < end; I++) 
     {
         if (I%2== 0) 
-            count_even++; 
+            count_even+=I; 
         else 
-            count_odd++;
+            count_odd+=I;
     }
 
     
