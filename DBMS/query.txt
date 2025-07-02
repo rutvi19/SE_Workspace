@@ -1,0 +1,52 @@
+1.create database - create database emp ;
+
+2.create table - create table emp1(id int primary key auto increment);
+
+3.first add - alter TABLE emp1 ADD name varchar(50)
+
+4.after add - ALTER TABLE emp1 add emp_no varchar(50) AFTER id;
+
+5.for add - ALTER table emp1 change name  first_name varchar(50)
+
+	for add - ALTER TABLE emp1 ADD last_name varchar(50);
+
+	for add - ALTER TABLE emp1 ADD first_name varchar(50);
+
+	for add - ALTER TABLE emp1 ADD designation varchar(50);
+
+	for add - ALTER TABLE emp1 ADD date varchar(50);
+
+	for add - ALTER TABLE emp1 ADD salary varchar(50);
+
+	for add - ALTER TABLE emp1 ADD comm varchar(50);
+
+	for add - ALTER TABLE emp1 ADD deptno varchar(50);
+
+6.modify - ALTER TABLE emp MODIFY salary varchar(255) AFTER date;
+
+7.rename - ALTER TABLE emp1  RENAME emp
+
+8.change - ALTER TABLE emp CHANGE designation desig varchar(50);
+
+9.drop table-- drop TABLE emp1
+
+10.insert into emp (empno,first_name,last_name,desig,date,salary,comm,detno) values ('1','rutvi','mandaliya','HR manager','19-02-2006','500000','200','10') 
+
+11.UPDATE emp SET first_name = 'rutviii'
+
+12.delete from emp where id = 1;//row
+
+13.ALTER TABLE emp DROP emp_no
+
+14. truncat table emp
+
+
+
+aggregate function---
+SELECT COUNT(*) as NumStudents FROM student_table;
+
+SELECT Max(marks) as MaxMarks FROM student_table;
+
+SELECT MIN(marks) as MinMarks FROM student_table;
+
+SELECT SUM(marks) AS totalmarks FROM student_table;
