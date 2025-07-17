@@ -50,3 +50,4 @@ SELECT Max(marks) as MaxMarks FROM student_table;
 SELECT MIN(marks) as MinMarks FROM student_table;
 
 SELECT SUM(marks) AS totalmarks FROM student_table;
+
